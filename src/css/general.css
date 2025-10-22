@@ -1,0 +1,15 @@
+body {
+    background-color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: aqua;
+    padding: 1rem;
+    text-align: center;
+}
+
+.root {
+    margin: 1rem;
+    margin-right: 1rem;
+}
