@@ -25,6 +25,7 @@ export default function Inicio(){
             </p>
             <p>Hay 2 tipos de propiedades de objetos que tiene ciertos atributos: la propiedad <i>data</i> y
             la propiedad <i>accesor</i></p>
+            <p></p>
             </div>
             <h3 className="m-3 font-bold text-1x1">Propiedad Data</h3>
             <p className="m-4 ">La propiedad data, asocia una clave con un valor y tiene los siguientes atributos</p>
