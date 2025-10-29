@@ -3,13 +3,16 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 //Import componentes
 import Header from './componentes/header'
-import Inicio from './componentes/inicio' 
+import Pie from './componentes/pie'
+import Inicio from './componentes/inicio'
+import Cabecera from './componentes/Cabecera'
 //Import CSS
 import './css/general.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Header />
+    <Cabecera />
     <Inicio />
+    <Pie />
   </StrictMode>,
 )
