@@ -10,9 +10,9 @@ export default function Inicio(){
     console.log(persona);
 
     const taza = {material:"ceramico", tamanio:400, color:"multicolor"};
-    document.getElementById('tazaMaterial').innerHTML = taza.material;
-    document.getElementById('tazaTamanio').innerHTML = taza.tamanio;
-    document.getElementById('tazaColor').innerHTML = taza.color;
+    //document.getElementById('tazaMaterial').innerHTML = taza.material;
+    //document.getElementById('tazaTamanio').innerHTML = taza.tamanio;
+    //document.getElementById('tazaColor').innerHTML = taza.color;
 
     return(
         <>
