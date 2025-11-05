@@ -49,6 +49,39 @@ export default function ClaseForm(){
                     <td>Muestra un boton clickleable</td>
                 </tr>
             </table>
+                <h2 className="m-4 text-3xl font-bold">El elemento &lt;label&gt;</h2>
+                <p>El eleemto lebel define una etiqueta para muchos elementos de formulario. Es muy util para los 
+                usuario con lector de pantalla ya que este sera leido cuando el usuario enfoca el elemento de entrada
+                </p>
+                <p>Este elemento tambien ayuda a usuarios que tienen dificultad clickeando en regiones muy pequeñas (tales como
+                    botones radio o checkboxes), porque cuando el usuario clickea el texto dentro del &lt;label&gt;activa dichos botones.
+                </p>
+                <p>Tambien podemos utilizar un atributo llamado for para emparejar un elemento de entrada con la etiqueta, para 
+                    hacerlo el ID de la entrada debe coincidir con el for del label
+                </p>
+            <div>
+                <h3 className="m-4 text-2xl font-bold">Ejemplo:Radio</h3>
+                <div className="radios">
+                    <form>
+                        <input type="radio" id="html" name="leng_fav" value="HTML"></input>
+                        <label form="html">HTML</label><br></br>
+                        <input type="radio" id="css" name="leng_fav" value="CSS"></input>
+                        <label form="css">CSS</label><br></br>
+                        <input type="radio" id="javascript" name="leng_fav" value="JavaScript"></input>
+                        <label form="javascript">JavaScript</label>
+                    </form>
+                <h3 className="m-4 text-2xl font-bold">Ejemplo:Checkbox</h3> 
+                    <form>
+                        <input type="checkbox" id="vehiculo1" name="vehiculo1" value="Moto"></input>
+                        <label form="vehiculo1">Tengo una moto</label><br></br>
+                        <input type="checkbox" id="vehiculo2" name="vehiculo2" value="Auto"></input>
+                        <label form="vehiculo2">Tengo una auto</label><br></br>
+                        <input type="checkbox" id="vehiculo3" name="vehiculo3" value="Bici"></input>
+                        <label form="vehiculo3">Tengo una bici</label><br></br>
+                    </form>
+                </div>
+
+            </div>
         </>
     )
 }
