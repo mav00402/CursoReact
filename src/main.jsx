@@ -12,6 +12,8 @@ import Inicio from './componentes/inicio'
 import Cabecera from './componentes/Cabecera'
 import ClaseForm from './componentes/claseform';
 import Pruebas from './componentes/pruebas';
+import Hooks from './componentes/hooks';
+
 
 //Import CSS
 import './css/general.css'
@@ -22,13 +24,18 @@ const router = createBrowserRouter([
     Component: Inicio
   },
   {
-    path: "/clase-formulario",
+    path: "/claseform",
     Component: ClaseForm
   },
   {
     path: "/pruebas",
     Component: Pruebas
-  }
+  },
+  {
+    path: "/hooks",
+    Component: Hooks
+  },
+  
 ]);
 
 createRoot(document.getElementById('root')).render(

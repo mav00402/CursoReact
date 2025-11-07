@@ -16,7 +16,7 @@ export default function Inicio(){
 
     return(
         <>
-            <h2 className="text-bold text-2xl m-3 ">Extructuras de datos: Objetos</h2>
+            {/*<h2 className="text-bold text-2xl m-3 ">Extructuras de datos: Objetos</h2>
             <div className="m-3">
             <p>En JS, los objetos se pueden ver como  una coleccion de propiedades. Con una sintaxis de llave/
             valor, se inicia un conjunto limitado de propiedades; luego se pueden agregar y eliminar propiedades.
@@ -76,6 +76,9 @@ export default function Inicio(){
             <p id="tazaMaterial"></p>
             <p id="tazaTamanio"></p>
             <p id="tazaColor"></p>
+            */}
+            <p>Pagina de Inicio</p>
+            <a href="./claseform">Link a clase formulario</a>
         </>
     )
 }

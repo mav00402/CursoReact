@@ -1,3 +1,6 @@
+//componentes
+import FormularioFinal from "./formulariofinal"
+
 export default function ClaseForm(){
     return(
         <>
@@ -82,6 +85,7 @@ export default function ClaseForm(){
                 </div>
 
             </div>
+            <FormularioFinal />
         </>
     )
 }
