@@ -2,6 +2,7 @@ import { useState } from "react"
 
 //Componentes
 import FuncionUseState from "./usestate"
+import FuncionUseEffect from "./useeffect"
 
 export default function Hooks (){
     const [nombre, setNombre] = useState("Marcelo")
@@ -29,6 +30,7 @@ export default function Hooks (){
                 </ul>
             </p>
             <FuncionUseState />
+            <FuncionUseEffect />
 
         </div>
 
