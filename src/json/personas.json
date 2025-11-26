@@ -1,0 +1,55 @@
+[
+    {
+        "nombre":"Marcelo Tinelli",
+        "email":"tinelli@gmail.cojm",
+        "curso":"programacion",
+        "nota":"7"
+    },
+    {
+        "nombre":"Susana Gimenez",
+        "email":"susana@gmail.cojm",
+        "curso":"programacion",
+        "nota":"5"
+    },
+    {
+        "nombre":"Ricardo Fort",
+        "email":"rircardo@gmail.cojm",
+        "curso":"manejo",
+        "nota":"4"
+    },
+        {
+        "nombre":"Pepe Argento",
+        "email":"pepe@gmail.cojm",
+        "curso":"Actor",
+        "nota":"4"
+    },
+        {
+        "nombre":"Pepe Argento",
+        "email":"pepe@gmail.cojm",
+        "curso":"Actor",
+        "nota":"4"
+    }
+,
+        {
+        "nombre":"Pepe Argento",
+        "email":"pepe@gmail.cojm",
+        "curso":"Actor",
+        "nota":"4"
+    }
+,
+        {
+        "nombre":"Pepe Argento",
+        "email":"pepe@gmail.cojm",
+        "curso":"Actor",
+        "nota":"4"
+    }
+,
+        {
+        "nombre":"Pepe Argento",
+        "email":"pepe@gmail.cojm",
+        "curso":"Actor",
+        "nota":"4"
+    }
+
+
+]

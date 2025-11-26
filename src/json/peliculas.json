@@ -1,0 +1,50 @@
+[
+    {
+        "titulo":"Alien",
+        "genero":"sci-fi",
+        "duracion":"2hs",
+        "director":"ridley Scott",
+        "imagen":"https://placehold.co/600x400"
+    },
+
+    {
+        "titulo":"Robocop",
+        "genero":"accion",
+        "duracion":"1.5hs",
+        "director":"james",
+        "imagen":"https://placehold.co/600x400/red/green"
+    },
+
+    {
+        "titulo":"Rambo",
+        "genero":"Accion",
+        "duracion":"1,4hs",
+        "director":"otro director",
+        "imagen":"https://placehold.co/600x400/green/yellow"
+    },
+
+    {
+        "titulo":"Depredador",
+        "genero":"accion",
+        "duracion":"2.3hs",
+        "director":"Arnold",
+        "imagen":"https://placehold.co/600x400/blue/yellow"
+    },
+
+    {
+        "titulo":"El señor de los anillos",
+        "genero":"Fantasia",
+        "duracion":"3,4hs",
+        "director":"Otto",
+        "imagen":"https://placehold.co/600x400/green/black"
+    },
+
+    {
+        "titulo":"Harry potter",
+        "genero":"Fantasia",
+        "duracion":"2.1hs",
+        "director":"Harry",
+        "imagen":"https://placehold.co/600x400/orange/yellow"
+    }
+
+]

@@ -8,6 +8,9 @@ import { useState } from 'react';
 //Import CSS
 import './css/general.css'
 
+import HeaderNav from './componentes/headernav';
+import ContenidoDinamico from './componentes/contenido-dinamico';
+
 const raiz = document.getElementById("root");
 
 function Cabecera(){
@@ -168,10 +171,17 @@ let hola = () => {
 
 let hola1 = () => "Hola Mundo 2";
 
-createRoot(raiz).render(
+const rutasObjetos = createBrowserRouter([
+    
+    {
+        path: "/",
+        Component: ContenidoDinamico
+    }
+])
+
+createRoot(document.getElementById("root")).render(
     <StrictMode>
-        <Cabecera />
-        <Contenido />
-        
+        <HeaderNav />
+        <RouterProvider router={rutasObjetos} />
     </StrictMode>
 )
