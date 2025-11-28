@@ -10,6 +10,7 @@ import './css/general.css'
 
 import HeaderNav from './componentes/headernav';
 import ContenidoDinamico from './componentes/contenido-dinamico';
+import Snippets from './componentes/snippets';
 
 const raiz = document.getElementById("root");
 
@@ -176,6 +177,11 @@ const rutasObjetos = createBrowserRouter([
     {
         path: "/",
         Component: ContenidoDinamico
+    },
+
+    {
+        path: "/snippets",
+        Component: Snippets
     }
 ])
 
